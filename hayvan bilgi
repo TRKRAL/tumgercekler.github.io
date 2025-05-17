@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hayvanlar Ansiklopedisi - Tüm Hayvanlar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #2d89ef;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+      max-width: 950px;
+      margin: 0 auto;
+    }
+    section {
+      background: white;
+      padding: 18px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    h2 {
+      color: #2d89ef;
+      text-align: center;
+    }
+    ul {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+      margin-bottom: 0;
+      font-size: 1.05em;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .grup {
+      color: #444;
+      font-weight: bold;
+      background: #e6f0fa;
+      border-radius: 5px;
+      padding: 3px 7px;
+      margin-top: 15px;
+      display: inline-block;
+    }
+    .bilgi {
+      color: #3c3c3c;
+      font-size: 0.98em;
+      font-style: italic;
+      margin-left: 5px;
+      display: block;
+    }
+    @media (max-width: 700px) {
+      ul { columns: 1; }
+    }
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background: #2d89ef;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hayvanlar Ansiklopedisi</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Tüm Hayvanlar Listesi</h2>
+      <ul>
+        <!-- MEMELİLER -->
+        <li>
+          <span class="grup">Memeli</span> <strong>Aslan</strong> (Panthera leo)
+          <span class="bilgi">Afrika savanlarında yaşayan, güçlü ve sosyal bir yırtıcıdır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Fil</strong> (Loxodonta africana)
+          <span class="bilgi">Dünyanın en büyük kara hayvanıdır, uzun hortumuyla tanınır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Yarasa</strong> (Myotis myotis)
+          <span class="bilgi">Uçabilen tek memelidir, geceleri avlanır ve ekolokasyon kullanır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Balina</strong> (Balaenoptera musculus)
+          <span class="bilgi">Dünyanın en büyük hayvanıdır, okyanuslarda yaşar.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Kanguru</strong> (Macropus rufus)
+          <span class="bilgi">Avustralya’ya özgüdür, arka bacaklarıyla zıplar ve kesesinde yavru taşır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Panda</strong> (Ailuropoda melanoleuca)
+          <span class="bilgi">Çin’e özgü, bambu yiyen ve siyah-beyaz tüylü bir ayıdır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Koala</strong> (Phascolarctos cinereus)
+          <span class="bilgi">Avustralya’da yaşar, okaliptüs yaprağıyla beslenir ve ağaçta uyur.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Kutup Ayısı</strong> (Ursus maritimus)
+          <span class="bilgi">Kuzey Kutbu’nda yaşar, yüzme yeteneğiyle ve beyaz kürküyle tanınır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Yunus</strong> (Delphinus delphis)
+          <span class="bilgi">Zeki, sosyal ve hızlı yüzücüdür; genellikle gruplar halinde yaşar.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Gergedan</strong> (Rhinoceros unicornis)
+          <span class="bilgi">Kalın derili, büyük boynuzlu ve otçul bir hayvandır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>At</strong> (Equus ferus caballus)
+          <span class="bilgi">Tarihte ulaşım ve tarımda kullanılan, hızlı koşabilen evcil hayvandır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Zebra</strong> (Equus zebra)
+          <span class="bilgi">Siyah-beyaz çizgili postuyla bilinir, Afrika otlaklarında yaşar.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Evcil Köpek</strong> (Canis lupus familiaris)
+          <span class="bilgi">İnsanların en eski evcil hayvanı ve sadık dostudur.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Evcil Kedi</strong> (Felis catus)
+          <span class="bilgi">Bağımsız yapısıyla bilinen, evlerde beslenen küçük yırtıcıdır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Çita</strong> (Acinonyx jubatus)
+          <span class="bilgi">Dünyanın en hızlı kara hayvanıdır, kısa mesafelerde 100 km/s hıza ulaşabilir.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Vaşak</strong> (Lynx lynx)
+          <span class="bilgi">Kısa kuyruklu, püsküllü kulaklı avcı bir yaban kedisidir.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Samur</strong> (Martes martes)
+          <span class="bilgi">Yoğun kürküyle tanınır, ormanlarda yaşar ve kemirgenlerle beslenir.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Kirpi</strong> (Erinaceus europaeus)
+          <span class="bilgi">Vücudu dikenlerle kaplıdır, tehlike anında top gibi yuvarlanır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Sincap</strong> (Sciurus vulgaris)
+          <span class="bilgi">Ağaçlarda yaşayan, fındık ve tohumlarla beslenen hızlı bir kemirgendir.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Tavşan</strong> (Oryctolagus cuniculus)
+          <span class="bilgi">Uzun kulaklı, hızlı ve ürkek bir otçuldur, yer altında tüneller açar.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Goril</strong> (Gorilla gorilla)
+          <span class="bilgi">Dünyanın en büyük primatıdır, ormanlarda sosyal gruplar hâlinde yaşar.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Şempanze</strong> (Pan troglodytes)
+          <span class="bilgi">Zekası ve alet kullanma yeteneğiyle bilinen, sosyal bir primattır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Orangutan</strong> (Pongo pygmaeus)
+          <span class="bilgi">Uzun kolları ve kırmızımsı tüyleriyle tanınır, ağaçlarda yaşar.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Paviyan</strong> (Papio anubis)
+          <span class="bilgi">Afrika’da açık alanlarda yaşayan, büyük dişleriyle ve sosyal yapısıyla bilinir.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Marmoset</strong> (Callithrix jacchus)
+          <span class="bilgi">Küçük boyutlu, ağaçlarda yaşayan ve sıçramada usta bir maymundur.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Koyun</strong> (Ovis aries)
+          <span class="bilgi">Yünüyle ve etiyle bilinir, sürüler hâlinde yaşar.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Keçi</strong> (Capra hircus)
+          <span class="bilgi">Dağlık alanlara uyumlu, çevik ve tırmanıcı evcil hayvandır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>İnek</strong> (Bos taurus)
+          <span class="bilgi">Süt ve et üretimi için yetiştirilen en yaygın çiftlik hayvanıdır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Manda</strong> (Bubalus bubalis)
+          <span class="bilgi">Sulak alanlarda yaşar, güçlü ve dayanıklıdır, sütü çok yağlıdır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Domuz</strong> (Sus scrofa domesticus)
+          <span class="bilgi">Kısa bacaklı, geniş burunlu; et üretimi için beslenir.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Ren Geyiği</strong> (Rangifer tarandus)
+          <span class="bilgi">Hem dişi hem erkeklerinde boynuz vardır, kutup çevresinde yaşar.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Lama</strong> (Lama glama)
+          <span class="bilgi">Güney Amerika’da yük hayvanı olarak kullanılır, yününden yararlanılır.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Alpaka</strong> (Vicugna pacos)
+          <span class="bilgi">Yünü çok değerlidir, And dağlarında yaşar, küçük ve zariftir.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Amerikan Bizonu</strong> (Bison bison)
+          <span class="bilgi">Kuzey Amerika bozkırlarında yaşamış, iri ve güçlü bir otçuldur.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Avrupa Bizonu</strong> (Bison bonasus)
+          <span class="bilgi">Avrupa’nın ormanlarında yaşayan, koruma altındaki büyük bir memelidir.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Meerkat</strong> (Suricata suricatta)
+          <span class="bilgi">Afrika çöllerinde yaşayan, ayakta durup çevresini gözleyen bir türdür.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Bandikut</strong> (Perameles nasuta)
+          <span class="bilgi">Avustralya’ya özgü, burunlu ve gececi küçük memelidir.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Tasmanian Canavarı</strong> (Sarcophilus harrisii)
+          <span class="bilgi">Avustralya’nın en büyük etçil keseli hayvanıdır, güçlü çenelere sahiptir.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Gelincik</strong> (Mustela nivalis)
+          <span class="bilgi">Küçük, çevik ve avcı bir memelidir, farelerle beslenir.</span>
+        </li>
+        <li>
+          <span class="grup">Memeli</span> <strong>Yer Sincabı</strong> (Spermophilus citellus)
+          <span class="bilgi">Açık alanlarda yer altında tüneller açan, gündüz aktif olan bir kemirgendir.</span>
+        </li>
+
+        <!-- Her tür için buradaki gibi bilgi eklemeye devam edebilirim. 
+             Aşağıya diğer gruplar (kuş, sürüngen, böcek, balık, omurgasız vb.) için de örnekler ekliyorum. -->
+
+        <!-- KUŞLAR, SÜRÜNGENLER, BALIKLAR, AMFİBİLER, BÖCEKLER, OMURGASIZLAR vb. örnekler: -->
+
+        <li>
+          <span class="grup">Kuş</span> <strong>Kartal</strong> (Aquila chrysaetos)
+          <span class="bilgi">Keskin görüşü ve güçlü pençeleriyle bilinen yırtıcı bir kuştur.</span>
+        </li>
+        <li>
+          <span class="grup">Kuş</span> <strong>Papağan</strong> (Psittacidae)
+          <span class="bilgi">Renkli tüyleri ve konuşma yetenekleriyle tanınır.</span>
+        </li>
+        <li>
+          <span class="grup">Kuş</span> <strong>Penguen</strong> (Spheniscidae)
+          <span class="bilgi">Uçamayan, kutuplarda yaşayan ve suya çok iyi dalan bir kuştur.</span>
+        </li>
+        <li>
+          <span class="grup">Kuş</span> <strong>Flamingo</strong> (Phoenicopterus roseus)
+          <span class="bilgi">Pembe tüyleriyle ve tek ayak üzerinde durma alışkanlığıyla tanınır.</span>
+        </li>
+        <li>
+          <span class="grup">Sürüngen</span> <strong>Yılan</strong> (Serpentes)
+          <span class="bilgi">Bacakları yoktur, sürünerek hareket eder; bazı türleri zehirlidir.</span>
+        </li>
+        <li>
+          <span class="grup">Sürüngen</span> <strong>Kertenkele</strong> (Lacertilia)
+          <span class="bilgi">Kuyruğunu bırakıp kaçabilen, hızlı ve çevik bir sürüngendir.</span>
+        </li>
+        <li>
+          <span class="grup">Sürüngen</span> <strong>Kaplumbağa</strong> (Testudines)
+          <span class="bilgi">Sert kabuğuyla kendini korur, hem karada hem suda yaşayan türleri vardır.</span>
+        </li>
+        <li>
+          <span class="grup">Sürüngen</span> <strong>Timsah</strong> (Crocodylia)
+          <span class="bilgi">Güçlü çeneleri ve suya uygun vücutlarıyla bilinir, nehir ve göllerde yaşar.</span>
+        </li>
+        <li>
+          <span class="grup">Balık</span> <strong>Köpekbalığı</strong> (Selachimorpha)
+          <span class="bilgi">Okyanusların tehlikeli yırtıcılarından biridir, sürekli diş değiştirir.</span>
+        </li>
+        <li>
+          <span class="grup">Balık</span> <strong>Somon</strong> (Salmo salar)
+          <span class="bilgi">Yumurtlamak için nehirlerden denize, denizden nehire göç eder.</span>
+        </li>
+        <li>
+          <span class="grup">Böcek</span> <strong>Kelebek</strong> (Pieris brassicae)
+          <span class="bilgi">Renkli kanatları ve metamorfozu ile tanınır.</span>
+        </li>
+        <li>
+          <span class="grup">Böcek</span> <strong>Arı</strong> (Apis mellifera)
+          <span class="bilgi">Bal üretir ve çiçeklerin tozlaşmasında önemli rol oynar.</span>
+        </li>
+        <li>
+          <span class="grup">Solucan</span> <strong>Toprak Solucanı</strong> (Lumbricus terrestris)
+          <span class="bilgi">Toprağı havalandırır, bitkiler için faydalıdır.</span>
+        </li>
+        <li>
+          <span class="grup">Eklembacaklı</span> <strong>Örümcek</strong> (Araneus diadematus)
+          <span class="bilgi">Ağ yaparak avlanan, sekiz bacaklı bir omurgasızdır.</span>
+        </li>
+        <li>
+          <span class="grup">Yumuşakça</span> <strong>Salyangoz</strong> (Helix aspersa)
+          <span class="bilgi">Kabuklu vücutlarıyla yavaş hareket eden, nemli ortamları seven hayvanlardır.</span>
+        </li>
+        <li>
+          <span class="grup">Süngerler</span> <strong>Sünger</strong> (Spongia officinalis)
+          <span class="bilgi">Denizlerde yaşayan, suyu filtre eden basit yapılı canlılardır.</span>
+        </li>
+        <li>
+          <span class="grup">Dikenliler</span> <strong>Deniz Yıldızı</strong> (Asterias rubens)
+          <span class="bilgi">Kollarıyla hareket eden, deniz tabanında yaşayan omurgasızdır.</span>
+        </li>
+        <!-- ... Diğer türler ve benzer kısa açıklamalar ... -->
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Bilim Hayvanlar Ansiklopedisi</p>
+  </footer>
+</body>
+</html>
